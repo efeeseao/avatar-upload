@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<span
+  class="css-srpoh3"
+  data-testid="styled-typography"
+>
+  content
+</span>
+`;
+
+exports[`renders default variant snapshot 1`] = `
+<div>
+  <span
+    class="emotion-0"
+    data-testid="styled-typography"
+  >
+    typography
+  </span>
+</div>
+`;
+
+exports[`renders error variant snapshot 1`] = `
+.emotion-0 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28.8px;
+  color: error;
+}
+
+<div>
+  <span
+    class="emotion-0"
+    data-testid="styled-typography"
+    font-size="16px"
+    font-weight="400"
+  >
+    error typography
+  </span>
+</div>
+`;
+
+exports[`renders text variant snapshot 1`] = `
+.emotion-0 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25.2px;
+}
+
+<div>
+  <span
+    class="emotion-0"
+    data-testid="styled-typography"
+    font-size="14px"
+    font-weight="400"
+  >
+    text typography
+  </span>
+</div>
+`;
+
+exports[`renders title variant snapshot 1`] = `
+.emotion-0 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25.2px;
+}
+
+<div>
+  <span
+    class="emotion-0"
+    data-testid="styled-typography"
+    font-size="14px"
+    font-weight="500"
+  >
+    title typography
+  </span>
+</div>
+`;

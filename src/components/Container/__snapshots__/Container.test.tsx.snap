@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.emotion-0 {
+  color: black;
+  background-color: background;
+  padding: 16px;
+}
+
+<div
+  class="emotion-0"
+  data-testid="styled-container"
+>
+  content
+</div>
+`;
+
+exports[`renders default snapshot 1`] = `
+.emotion-0 {
+  color: black;
+  background-color: background;
+  padding: 16px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-testid="styled-container"
+  >
+    content
+  </div>
+</div>
+`;
+
+exports[`renders snapshot with colors 1`] = `
+.emotion-0 {
+  color: black;
+  background-color: primary;
+  padding: 16px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-testid="styled-container"
+  >
+    content
+  </div>
+</div>
+`;

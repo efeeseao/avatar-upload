@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot 1`] = `
+.emotion-0 {
+  width: 100%;
+}
+
+<div>
+  <input
+    class="emotion-0"
+    data-testid="styled-slider"
+    type="range"
+  />
+</div>
+`;

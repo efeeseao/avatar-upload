@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.emotion-0 {
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  background-color: #3F80FE;
+  color: #3F80FE;
+  background: none;
+}
+
+<button
+  class="emotion-0"
+  data-testid="styled-button"
+>
+  content
+</button>
+`;
+
+exports[`renders snapshot 1`] = `
+.emotion-0 {
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  background-color: #3F80FE;
+  color: red;
+  background: none;
+}
+
+<div>
+  <button
+    class="emotion-0"
+    data-testid="styled-button"
+  >
+    click me
+  </button>
+</div>
+`;
